@@ -23,14 +23,11 @@ permissions:
   contents: read
 
 jobs:
-  gnome:
+  ansible-role-template:
     runs-on: ubuntu-latest
+    python-version: "3.10"
     strategy:
       max-parallel: 5
-      matrix:
-        python-version: ["3.10"]
-        molecule-scenario:
-          - "test_alma9"
     steps:
     - uses: actions/checkout@v4
 
@@ -73,4 +70,4 @@ jobs:
 
     - name: Run molecule test
       run: |
-        molecule test -s ${{ matrix.molecule-scenario }}    
+        molecule test 
