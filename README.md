@@ -81,8 +81,10 @@ tasks:
 ```
 Know Issues
 -----------
-* role name in `ansible-ulauncher/molecule/default/cleanup.yml` needs to be updated manually after creation from template
-* role name in `ansible-ulauncher/molecule/default/converge.yml` needs to be updated manually after creation from template
+* manually update role name after new repo creation in
+  * `ansible-ulauncher/molecule/default/cleanup.yml`
+  * `ansible-ulauncher/molecule/default/converge.yml`
+  * `ansible-ulauncher/molecule/default/verify.yml`
 * Status badge link needs to be updated manually
 
 License
