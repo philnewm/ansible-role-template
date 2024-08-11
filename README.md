@@ -79,6 +79,11 @@ tasks:
 
 ...
 ```
+Know Issues
+-----------
+* role name in `ansible-ulauncher/molecule/default/cleanup.yml` needs to be update manually after creation from template
+* role name in `ansible-ulauncher/molecule/default/converge.yml` needs to be update manually after creation from template
+
 License
 -------
 
