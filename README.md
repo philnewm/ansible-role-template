@@ -1,5 +1,5 @@
-Role Name
-=========
+## Role Name
+
 [![ci-testing](https://github.com/philnewm/ansible-role-template/actions/workflows/molecule-ci.yml/badge.svg)](https://github.com/philnewm/ansible-role-template/actions/workflows/molecule-ci.yml)
 
 Role description
@@ -8,10 +8,10 @@ Role description
 
 This role includes a full vagrant based molecule testing setup at `extensions/molecule/default`
 
-Structure
----------
+# Structure
+
 ```
-📦 gnome_setup
+📦 ansible-role-template
  ┣ 📂 defaults
  ┃ ┗ 📜 main.yml
   ┣ 📂 files
@@ -40,13 +40,11 @@ Structure
 
 Describe and explain role structure. 
 
-Requirements
-------------
+## Requirements
 
-Elloborate external dependencies and how to use them.
+Ellaborate external dependencies and how to use them.
 
-Role Variables
---------------
+## Role Variables
 
 * defaults/main.yml
   * first_var
@@ -58,13 +56,11 @@ Role Variables
   * third_var
 
 
-Dependencies
-------------
+## Dependencies
 
 List role ansible-galaxy dependencies - if any.
 
-Example Playbook
-----------------
+## Example Playbook
 
 Add an example playbook
 ```yaml
@@ -79,6 +75,7 @@ tasks:
 
 ...
 ```
+<<<<<<< HEAD
 Know Issues
 -----------
 * manually update role name after new repo creation in
@@ -89,5 +86,13 @@ Know Issues
 
 License
 -------
+=======
+## License
+>>>>>>> 6d12896 (Update readme)
 
 Add license - if any.
+
+## Changes to role template
+
+* Create one runner job per distro
+* Add github action that flags empty directories on release creation

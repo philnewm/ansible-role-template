@@ -1,6 +1,6 @@
 galaxy_info:
   role_name: ansible_role_template
-  author: auther_name
+  author: author_name
   description: ansible-role-template description
 
   license: some_license

@@ -1,6 +1,6 @@
 ---
 
-# tasks file for gnome_setup
+# tasks file for ansible-role-template
 
 
 - name: "Desired state is {{ ansible_role_template_state }}"
