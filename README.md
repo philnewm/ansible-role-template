@@ -75,20 +75,7 @@ tasks:
 
 ...
 ```
-<<<<<<< HEAD
-Know Issues
------------
-* manually update role name after new repo creation in
-  * `ansible-ulauncher/molecule/default/cleanup.yml`
-  * `ansible-ulauncher/molecule/default/converge.yml`
-  * `ansible-ulauncher/molecule/default/verify.yml`
-* Status badge link needs to be updated manually
-
-License
--------
-=======
 ## License
->>>>>>> 6d12896 (Update readme)
 
 Add license - if any.
 
