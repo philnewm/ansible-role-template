@@ -81,5 +81,4 @@ Add license - if any.
 
 ## Changes to role template
 
-* Create one runner job per distro
 * Add github action that flags empty directories on release creation
