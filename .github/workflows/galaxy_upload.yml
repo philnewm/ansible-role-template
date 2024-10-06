@@ -5,7 +5,7 @@ on:
     types: [created]
 
 env:
-    ANSIBLE_GALAXY_TOKEN: ${{ secrets.GALAXY_TOKEN }}
+    ANSIBLE_GALAXY_TOKEN: ${{ secrets.ANSIBLE_GALAXY_TOKEN }}
 
 jobs:
   release:
