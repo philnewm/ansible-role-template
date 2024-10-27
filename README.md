@@ -4,7 +4,7 @@
 
 Role description
 
-This role includes a full vagrant based molecule testing setup at `extensions/molecule/default`
+This role includes a vagrant based molecule testing setup as a submodule at `molecule/default`
 
 ## Structure
 
