@@ -78,6 +78,17 @@ tasks:
 
 Add license - if any.
 
+## Notes
+
+Includes special git configuration for submodule files that are most likely to get local overrides
+`.git/info/attributes`
+
+```code
+molecule/default/cleanup.yml merge=ours
+molecule/default/converge.yml merge=ours
+molecule/default/verify.yml merge=ours
+```
+
 ## Changes to role template
 
 * Add github action that flags empty directories on release creation
