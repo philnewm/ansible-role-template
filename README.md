@@ -69,7 +69,7 @@ tasks:
     ansible.builtin.include_role:
       name: ansible-role-template
     vars:
-      ansible_role_template_state: present
+      state: present
 
 ...
 ```
