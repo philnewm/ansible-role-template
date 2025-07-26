@@ -1,8 +1,11 @@
 ---
 
-# Install tasks
-# INFO larger roles should only use **include_tasks** here
-
+- name: Install debian specific package_facts dependency
+  become: true
+  when: ansible_distribution == "Debian"
+  ansible.builtin.package:
+    name: python-apt-common
+    state: present
 
 # INFO This task may be obsolete for your use-case
 - name: Gather package facts

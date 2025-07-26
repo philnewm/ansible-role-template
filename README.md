@@ -4,7 +4,7 @@
 
 Role description
 
-This role includes a vagrant based molecule testing setup as a submodule at `molecule/default`
+This role includes a vagrant based molecule testing setup as a submodule at `molecule/`
 
 ## Structure
 
@@ -33,10 +33,11 @@ This role includes a vagrant based molecule testing setup as a submodule at `mol
  ┃ ┗ 📜 main.yml
  ┗ 🗒️ README.md
  ┗ 📓 requirements.txt
+ ┗ 📓 requirements.yml
 
 ```
 
-Describe and explain role structure. 
+Describe and explain role structure.
 
 ## Requirements
 
@@ -77,18 +78,3 @@ tasks:
 ## License
 
 Add license - if any.
-
-## Notes
-
-Includes special git configuration for submodule files that are most likely to get local overrides
-`.git/info/attributes`
-
-```code
-molecule/default/cleanup.yml merge=ours
-molecule/default/converge.yml merge=ours
-molecule/default/verify.yml merge=ours
-```
-
-## Changes to role template
-
-* Add github action that flags empty directories on release creation

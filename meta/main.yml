@@ -2,6 +2,7 @@
 
 galaxy_info:
   role_name: role_template
+  namespace: philnewm
   author: author_name
   description: ansible-role-template description
 
