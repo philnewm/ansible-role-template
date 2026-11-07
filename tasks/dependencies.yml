@@ -1,7 +1,3 @@
 ---
 
-# INFO This task may be osbolete for your use-case
-- name: Gather package facts
-  ansible.builtin.package_facts:
-
 ...
